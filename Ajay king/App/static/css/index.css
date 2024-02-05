@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x:hidden;
+}
+.body{
+    height: 108vh;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page1{
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.4);
+    background-position: center;
+    color: rgb(97, 2, 97);
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    box-sizing: border-box;
+}
+.vid{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media  (min-aspect-ratio:16/9){
+    .vid{
+    width: 100%;
+    height: auto;
+}
+}
+@media  (max-aspect-ratio:16/9){
+    .vid{
+    width: auto;
+    height: 100%;
+}
+}
+.login-button{
+    background-color: red;
+    color: black;
+    font-weight: bolder;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s backgroundcolor;
+    border: none;
+}
+.login-button:hover{
+    background-color:black;
+    color: white;
+    font-weight: bolder;
+
+}
+.navbar-toggler{
+    border: none;
+    font-size: 1.25rem;
+    
+
+}
+
+
+.navbar-toggler:focus, .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+
+}
+
+.nav-item .nav-link{
+    color: red;
+    position: relative;
+    font-weight: bolder;
+
+}
+.nav-item .nav-link:hover{
+    color: white;
+}
+
+.navbar{
+    background-color: black;
+height: 80px;
+margin-left: 10px;
+margin-right: 10px;
+border-radius: 15px;
+padding: 0.5rem;
+
+}
+.nav-head{
+    font-size: 30px;
+    color: red;
+    text-decoration: none;
+    font-weight: 900;
+}
+.nav-head:hover{
+    color: white;
+}
+.offcanvas-title{
+    color: red;
+    font-weight: 900;
+}
+.txt1{
+    color: red;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 13%;
+    padding-left: 20px;
+
+    
+}
+.txt2{
+    padding-left: 20px;
+    font-size: 50px;
+    text-align: start;
+    font-weight: 800;
+    color: #fff;  
+    
+}
+.txt3{
+    color: red;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 35%;
+    padding-left: 20px;
+    font-size: 40px;
+
+    
+}
+.shop-btn{
+    align-items: start;
+    justify-content: start;
+    background-color: rgb(202, 18, 18);
+    border: none;
+    font-size: 1.2rem;
+    flex-grow: 1;
+    order: 10;
+    display: inline-block;
+    color: white;
+    font-weight: 800;
+    padding: 8px 8px 8px 8px;
+    margin-left: 20px;
+  
+}
+.shop-btn:hover{
+    color: white;
+    background-color: black;
+}
+@media(min-width:700px){
+    .adjust{
+        margin-left: 10px;
+    }
+}
+@media(min-width:578px){
+    .adjust{
+        margin-left: 30px;
+    }
+}
+@media(min-width:500px){
+    .adjust{
+        margin-left: 35px;
+    }
+}
+@media(min-width:1330px){
+    .adjust{
+        margin-left: 1px;
+    }
+    .card-adjust{
+        margin-left: 10px;
+    }
+}
+.card-body .card-title{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+
+}
+.card-body  .card-text{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+.back{
+    position: relative;
+    height: 100vh;
+    background-image: url("/static/images/back5.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 640px; 
+    padding: 250px;
+
+}
+.back::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: reba(0,0,0,0.4);
+    align-items: center;
+}
+.back h1{
+    position: relative;
+    z-index: 1;
+    color: #ffff;
+    font-size: 55px;
+    text-align: center;
+    font-weight: 800;
+}
+.back h2{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    font-weight: 900;
+    color: red;
+
+}
+.c1{
+   
+    color: #fff;
+    font-weight: 700;
+}
+
+.shop-btn1{
+    color: #fff;
+    background-color: red;
+    width: 100px;
+}
+

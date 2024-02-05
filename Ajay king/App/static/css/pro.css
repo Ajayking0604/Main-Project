@@ -1,0 +1,27 @@
+.sp-2{
+    border: none;
+    width: 150px;
+    padding: 6px 0px 6px 0px;
+    color: white;
+    background-color: rgb(202, 18, 18);
+    border-radius: 5px;
+    margin-left: 15%;
+
+}
+.sp-3{
+    color: white;
+    background-color: rgb(202, 18, 18);
+    text-decoration: none;
+    font-weight: bolder;
+}
+.sp-3:hover{
+    color: #fff;
+    background-color: black;
+    
+}
+.sp-2:hover{
+    color: #fff;
+    background-color: black;
+    border: 1px  solid white;
+    text-decoration: none;
+}
